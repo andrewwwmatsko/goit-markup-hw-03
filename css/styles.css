@@ -1,0 +1,159 @@
+/* Global */
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #434455;
+    background-color: #FFF;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo-studio {
+    color:#2e2f42;
+}
+
+.nav-bar-link {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.nav-bar-link:hover, .nav-bar-link:focus, .nav-bar-link:active {
+    color: #404bbf;
+}
+.contacts-item, .contacts-item {
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+/* Header > address items on action */
+.contacts-item:hover,.contacts-item:focus{
+    color: #404BBF;
+}
+ 
+.contacts {
+    font-style: normal;
+}
+
+/* Main content */
+
+/* Order service section */
+.order-service-section {
+    background-color: #2E2F42;
+}
+.order-service-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.order-service-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.order-service-button:hover, .order-service-button:focus {
+    background-color: #404BBF;
+}
+
+/* Features section */
+.features-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: #2E2F42;
+}
+.features-description {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
+/* Our Team-section */
+.our-team-section {
+    background-color: #F4F4FD;
+}
+.our-team-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.our-team-employee-name {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.our-team-job {
+    text-align: center;;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.our-team-list-person{
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+/* Our Portfolio section */
+.our-portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.our-portfolio-item-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.our-portfolio-item-description {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer-logo-studio {
+    color: #f4f4fd;
+}
