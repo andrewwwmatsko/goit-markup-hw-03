@@ -27,6 +27,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-list, nav, .nav-bar {
+    display: flex;
+    gap: 40px;
+}
+
+nav {
+    gap: 76px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -35,6 +50,7 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-left: 156px;
 }
 .header-logo-studio {
     color:#2e2f42;
@@ -85,6 +101,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding: 16px 32px;
 }
 .order-service-button:hover, .order-service-button:focus {
     background-color: #404BBF;
@@ -167,6 +184,9 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.4px;
 }
 
+.our-portfolio-item {
+    border-bottom: 1px solid #E7E9FC;
+}
 .our-portfolio-item:not(:nth-child(3), :nth-child(6)) {
     margin-right: 24px;
 }
