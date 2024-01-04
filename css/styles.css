@@ -106,6 +106,7 @@ section {
 
 /* Order service section */
 .order-service-section {
+    padding: 188px 0;
     background-color: #2E2F42;
 }
 .order-service-title {
@@ -116,6 +117,7 @@ section {
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 .order-service-button {
     background-color: #4D5AE5;
@@ -125,6 +127,11 @@ section {
     letter-spacing: 0.04em;
     cursor: pointer;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .order-service-button:hover, .order-service-button:focus {
     background-color: #404BBF;
@@ -137,6 +144,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.4px;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .features-description {
     line-height: 1.5;
@@ -145,10 +153,11 @@ section {
 
 .features-list {
     display: flex;
+    gap: 24px;
 }
+.features-list-item {
+    width: calc((100% - 72px) / 4);
 
-.features-list-item:not(:last-child) {
-    margin-right: 24px;
 }
 
 /* Our Team-section */
