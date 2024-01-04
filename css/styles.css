@@ -252,11 +252,19 @@ section {
 /* Footer */
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
+
+.footer a.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-text {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    max-width: 264px;
 }
 
 .footer-logo-studio {
