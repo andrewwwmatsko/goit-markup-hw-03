@@ -48,8 +48,13 @@ section {
     margin: 0 auto;
     padding: 0 15px;
 }
-.contacts-list, .navigation-menu {
+.navigation-menu {
     display: flex;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-bar {
@@ -138,6 +143,8 @@ section {
 }
 
 /* Features section */
+
+
 .features-title {
     font-size: 20px;
     font-weight: 500;
