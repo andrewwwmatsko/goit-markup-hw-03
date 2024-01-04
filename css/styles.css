@@ -17,6 +17,10 @@ ul {
     padding-left: 0;
 }
 
+img {
+    display: block;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
@@ -25,6 +29,7 @@ section {
     padding-bottom: 120px;
     padding-top: 120px;
 }
+
 .container {
     width: 100%;
 }
@@ -34,15 +39,26 @@ section {
 .header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 
-.contacts-list, nav, .nav-bar {
+.header-container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.contacts-list, .navigation-menu {
+    display: flex;
+}
+
+.nav-bar {
     display: flex;
     gap: 40px;
 }
 
-nav {
-    gap: 76px;
+.navigation-menu {
+    align-items: center;
 }
 
 .logo {
@@ -53,7 +69,7 @@ nav {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-left: 156px;
+    margin-right: 76px;
 }
 .header-logo-studio {
     color:#2e2f42;
@@ -64,6 +80,7 @@ nav {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 .nav-bar-link:hover, .nav-bar-link:focus, .nav-bar-link:active {
     color: #404bbf;
@@ -81,6 +98,9 @@ nav {
 .contacts {
     font-style: normal;
 }
+ .contacts-list-item {
+    gap: 40px;
+ }
 
 /* Main content */
 
