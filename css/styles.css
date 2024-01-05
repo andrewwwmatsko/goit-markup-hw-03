@@ -8,6 +8,7 @@ body {
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    display: block;
 }
 
 ul {
@@ -31,7 +32,9 @@ section {
 }
 
 .container {
-    width: 100%;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Header */
@@ -55,6 +58,10 @@ section {
 .contacts-list {
     display: flex;
     gap: 40px;
+}
+
+.contacts-list-item {
+    padding: 24px 0;
 }
 
 .nav-bar {
@@ -102,6 +109,7 @@ section {
  
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 /* Main content */
@@ -118,6 +126,7 @@ section {
     letter-spacing: 1.12px;
     color: #FFFFFF;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
 }
@@ -134,6 +143,7 @@ section {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 .order-service-button:hover, .order-service-button:focus {
     background-color: #404BBF;
