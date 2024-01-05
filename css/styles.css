@@ -81,6 +81,8 @@ section {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+.logo.header {
     margin-right: 76px;
 }
 .header-logo-studio {
@@ -280,7 +282,7 @@ section {
     padding: 100px 0;
 }
 
-.footer a.logo {
+.logo.footer {
     display: inline-block;
     margin-bottom: 16px;
 }
